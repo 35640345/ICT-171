@@ -1,3 +1,6 @@
+const SOCKET_URL = 'https://ws.revenues.digital:2087';
+
+
 class SocketService {
     constructor() {
         this.socket = null;
@@ -6,7 +9,7 @@ class SocketService {
 
     connect() {
         if (!this.socket) {
-            this.socket = io('https://ws.revenues.digital:2087', {
+            this.socket = io(SOCKET_URL, {
                 transports: ['websocket'],
                 reconnection: true,
                 reconnectionAttempts: Infinity,

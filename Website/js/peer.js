@@ -1,3 +1,5 @@
+const PEER_HOST = 'webrtc.revenues.digital';
+
 class PeerService {
     constructor() {
         this.peer = null;
@@ -36,7 +38,7 @@ class PeerService {
         const id = `voice-${userName}-${Date.now()}`;
 
         this.peer = new Peer(id, {
-            host: 'webrtc.revenues.digital',
+            host: PEER_HOST,
             port: 2096,
             secure: true,
             config: { 
@@ -87,7 +89,7 @@ class PeerService {
 
     async discoverAndConnectToPeers(localStream) {
         try {
-            const response = await fetch('https://webrtc.revenues.digital:2096/peerjs/peers');
+            const response = await fetch(`https://${PEER_HOST}:2096/peerjs/peers`);
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }

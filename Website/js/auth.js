@@ -1,3 +1,5 @@
+const DEFAULT_PASSWORD = 'test';
+
 class AuthManager {
     constructor() {
         this.isAuthenticated = false;
@@ -5,7 +7,7 @@ class AuthManager {
     }
 
     login(username, password) {
-        if (password === 'test') {
+        if (password === DEFAULT_PASSWORD) {
             this.isAuthenticated = true;
             this.username = username;
             return true;
