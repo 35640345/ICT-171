@@ -1,3 +1,5 @@
+[![Video](https://i.ibb.co/0VCS6Gh9/image.png)](https://www.youtube.com/watch?v=SNYjRtaROTE)
+
 # 📈 Revenues Digital — Real-Time Revenue Dashboard
 
 [![Live Site](https://img.shields.io/badge/Live-Site-14b8a6?logo=google-chrome&logoColor=white)](https://revenues.digital)
