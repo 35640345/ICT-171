@@ -1,5 +1,6 @@
 # [🔴 Watch the YouTube Video Now!]()
-![Video](https://i.ibb.co/BKvwqSb7/image.png)](https://www.youtube.com/watch?v=SNYjRtaROTE)
+[![Video](https://i.ibb.co/BKvwqSb7/image.png)](https://www.youtube.com/watch?v=SNYjRtaROTE)
+
 
 # 📈 Revenues Digital — Real-Time Revenue Dashboard
 
